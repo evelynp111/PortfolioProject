@@ -1,0 +1,23 @@
+h1 {
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #f1eefb;
+  text-align: center;
+  padding: 160px 100px;
+}
+
+.hero p {
+  font-size: 36px;
+}
+
+.btn-branding {
+  border-radius: 4;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  padding: 20px 30px;
+  border: solid #8b86f7;
+}
