@@ -35,6 +35,17 @@ p {
   color: #272142;
 }
 
+.homepage-link a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #8b86f7;
+}
+
+.homepage-link :hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .btn-branding {
   border-radius: 4;
   background-color: white;
