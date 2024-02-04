@@ -16,10 +16,15 @@ p {
   line-height: 30px;
 }
 
+.featured-project-title {
+  color: rgb(113, 113, 113);
+  font-size: 27px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 85px 20px;
 }
 
 .hero h2 {
