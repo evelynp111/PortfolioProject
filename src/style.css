@@ -101,14 +101,37 @@ p {
 .overlay a {
   text-decoration: none;
   color: white;
-  font-size: 24px;
+  padding: 360px 35px;
+}
+
+.overlay-text {
+  font-size: 26px;
   font-weight: 600;
   text-align: center;
-  padding: 170px 35px;
+  padding: 260px 18px;
 }
 
 .image-container:hover .overlay {
   opacity: 1;
+}
+
+@media (max-width: 576px) {
+  .overlay-text {
+    font-size: 26px;
+  }
+  .overlay-text a {
+    padding: 90px 0px;
+  }
+}
+
+@media (max-width: 760px) {
+  .overlay-text {
+    font-size: 18px;
+    text-align: center;
+  }
+  .overlay-text a {
+    padding: 80px 0px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -118,7 +141,7 @@ p {
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .hero {
