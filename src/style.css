@@ -1,8 +1,9 @@
 :root {
-  --branding-color: black;
+  --branding-color: #7974d7;
   --secondary-color: #f5f3fc;
   --heading-font-family: arial;
   --default-font-family: arial;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -40,6 +41,23 @@ p {
   color: #272142;
 }
 
+.about-section {
+  padding: 85px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+}
+
+.about-section-content {
+  margin: 30px 30px;
+}
+
 .homepage-link a {
   text-decoration: none;
   font-size: 18px;
@@ -53,14 +71,14 @@ p {
 
 .btn-branding {
   border-radius: 4;
-  background-color: white;
-  color: black;
+  color: white;
+  background-color: var(--branding-color);
   font-size: 18px;
   line-height: 27px;
   margin: 20px auto;
   padding: 15px 30px;
-  border: solid #8b86f7;
-  box-shadow: 1px 1px 12px 2px rgba(20, 20, 20, 0.4);
+  border: 1px solid #8b86f7;
+  box-shadow: var(--box-shadow);
 }
 
 .project-description {
@@ -146,6 +164,11 @@ p {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 
   .project-description {
