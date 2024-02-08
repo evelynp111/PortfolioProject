@@ -17,6 +17,10 @@ p {
   line-height: 30px;
 }
 
+footer {
+  margin: 60px 0;
+}
+
 .featured-project-title {
   color: rgb(113, 113, 113);
   font-size: 27px;
@@ -77,8 +81,15 @@ p {
   line-height: 27px;
   margin: 20px auto;
   padding: 15px 30px;
-  border: 1px solid #8b86f7;
+  border: 1px solid var(--branding-color);
   box-shadow: var(--box-shadow);
+}
+
+.btn:hover {
+  transition: ease-in-out 0.2s;
+  background-color: #6561b9;
+  color: white;
+  text-decoration: underline;
 }
 
 .project-description {
@@ -135,6 +146,12 @@ p {
 
 .nav-link.active {
   font-weight: bold;
+}
+
+footer .work-inquiry {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 
 @media (max-width: 576px) {
