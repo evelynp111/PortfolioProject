@@ -1,8 +1,8 @@
 :root {
   --branding-color: #7974d7;
   --secondary-color: #f5f3fc;
-  --heading-font-family: arial;
-  --default-font-family: arial;
+  --heading-font-family: "Merriweather", serif;
+  --default-font-family: "Lato", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -24,6 +24,16 @@ footer {
 .featured-project-title {
   color: rgb(113, 113, 113);
   font-size: 27px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font-family);
+}
+
+p {
+  font-family: var(--default-font-family);
 }
 
 .hero {
