@@ -181,6 +181,10 @@ footer .social-links a {
   font-size: 18px;
 }
 
+footer .open-source-link a {
+  font-size: 17px;
+}
+
 @media (max-width: 576px) {
   .overlay-text {
     font-size: 24px;
